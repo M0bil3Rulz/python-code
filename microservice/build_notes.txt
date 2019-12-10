@@ -1,0 +1,20 @@
+In microserivce folder:
+
+$ python setup.py sdist
+
+Then
+
+$ cd dist
+
+There will be a file like this: integration_testing-0.0.1.tar.gz
+
+$ pip install integration_testing-0.0.1.tar.gz
+
+$ integration_testing
+
+(py3.8) H:\Code\python-code\microservice>integration_testing
+usage: integration_testing [-h] --config_json CONFIG_JSON [--log_level LOG_LEVEL] [--stdout] [--version]
+integration_testing: error: the following arguments are required: --config_json
+
+(py3.8) H:\Code\python-code\microservice>integration_testing --version
+integration_testing 0.0.1
